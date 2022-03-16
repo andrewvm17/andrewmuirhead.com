@@ -1,5 +1,6 @@
 html {
 	scroll-padding-top: 65px;
+	background-color: #e0f6f9;
 }
 
 .contact-img {
@@ -38,7 +39,7 @@ a:hover {
 	height: 40px;
 }
 .navbar {
-	background-color: #899f89;
+	background-color: #e0f6f9;
 }
 
 .nav-item, .scroll-link, .navbar-collapse{
@@ -53,21 +54,22 @@ a:hover {
 
 /* Generic */
 .title {
-	font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-	font-size: 3rem;
-	color: snow;
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #000000;
 }
 
 .titlenum {
 	font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 	font-size: 2rem;
-	color: snow;
+	color: #727272;
 }
 
 .titleinfo {
 	font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-	font-size: 0.85rem;
-	color: snow;
+	font-size: 1rem;
+	color: #727272;
 }
 
 .description {
@@ -91,7 +93,7 @@ a:hover {
 
 .top-title {
 	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-	font-size: 7rem;
+	font-size: 5rem;
 	font-weight: bold;
 	color: snow;
 	text-align: center;
@@ -126,13 +128,14 @@ a:hover {
 	font-size: 2.2rem;
 	font-weight: bold;
 	text-align: left;
-	text-shadow: 1.5px 1.5px #017d6c;
+	text-shadow: 1.5px 1.5px #FFD520;
+	
 }
 .what-description {
 	text-align: left;
+	margin-bottom: 4rem;
 }
 .what-img {
-	padding-top: 1.5rem;
 	width: 100%;
 	height:auto ;
 }
@@ -308,22 +311,22 @@ body {
 
 .body1 {
 	margin: 0;
-	height: 50vh;
+	height: 20vh;
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: repeat(3, 1fr);
   }
   
   .background-one {
-	background-color: #151515;
+	background-color: #e0f6f9;
   }
   
   .background-two {
-	background-color: #151515;
+	background-color: #000000;
   }
   
   .background-three {
-	background-color: #151515;
+	background-color: #000000;
   }
   
   .link-container {
@@ -342,13 +345,14 @@ body {
   }
   
   .link-one {
-	color: #899f89;
+	color: #727272;
 	transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
 	line-height: 1em;
+	border: 1px;
   }
   
   .link-one:hover {
-	color: #151515;
+	color: #000000;
 	transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
   
 	/* Thanks Chris Coyier, you got my back always. https://css-tricks.com/different-transitions-for-hover-on-hover-off/ */
@@ -362,7 +366,7 @@ body {
 	height: 100%;
 	top: 0;
 	right: 0;
-	background-color: #899f89;
+	background-color: #e0f6f9;
   
 	clip-path: circle(0% at 50% calc(50%));
 	transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
@@ -380,7 +384,7 @@ body {
 	height: 100%;
 	top: 0;
 	right: 0;
-	background-color: #151515;
+	background-color: #000000;
   
 	clip-path: polygon(
 	  40% 0%,
@@ -464,7 +468,7 @@ body {
   }
   
   .link-two {
-	color: #899f89;
+	color: #e0f6f9;
 	transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
   }
   
@@ -491,7 +495,7 @@ body {
 	  100% 100%,
 	  0% 110%
 	);
-	background-color: #899f89;
+	background-color: #e0f6f9;
   
 	transition: clip-path 1s cubic-bezier(0.25, 1, 0.5, 1);
   }
@@ -520,7 +524,7 @@ body {
 	transform: translate(50%, -50%) rotate(0deg) scale(0);
 	transition: transform 1s ease;
   
-	background-color: #899f89;
+	background-color: #e0f6f9;
   }
   
   .link-two:hover::after {
@@ -529,7 +533,7 @@ body {
   
 
   .link-three {
-	color: #899f89;
+	color: #e0f6f9;
 	transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
 	line-height: 1em;
   }
@@ -549,7 +553,7 @@ body {
 	height: 100%;
 	top: 0;
 	right: 0;
-	background-color: #899f89;
+	background-color: #e0f6f9;
   
 	clip-path: circle(0% at 50% calc(50%));
 	transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
@@ -567,7 +571,7 @@ body {
 	height: 100%;
 	top: 0;
 	right: 0;
-	background-color: #151515;
+	background-color: #000000;
   
 	clip-path: polygon(
 	  40% 0%,

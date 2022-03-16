@@ -59,51 +59,47 @@
     </div>
   </nav>
 
+  
   <div class="body1">
     <div class="background-one">
       <div class="link-container">
         <a class="link-one" href="/about">About Me</a>
       </div>
     </div>
-    <div class="background-two link-container">
-      <a class="link-two" href="/about">Resume</a>
+    <div class="background-one link-container">
+      <a class="link-one" href="/about">Resume <em>(soon...)</em></a>
     </div>
-    <div class="background-three link-container">
-      <a class="link-three" href="/about">Blog Posts</a>
+    <div class="background-one link-container">
+      <a class="link-one" href="/about">Blog Posts <em>(soon...)</em></a>
     </div>
   </div>
 
-  <!---Contact Section--->
-  <div class="contact-container">
-    <div>
-      <div class="container-fluid" style="background-color: #899f89;">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="title mt-3 mb-2" id="contact" style="text-align: center">Contact</h2>
-            <h3 class="titlenum" style="text-align: center"> +1 (240) 893-8287</h3>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <a href="mailto:andrewtce10@gmail.com" class="justify-content-center">
-            <div class="contact-img">
-            </div>
-          </a>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <h3 class="titleinfo" style="text-align: center"> Click above to email me!</h3>
-          </div>
+  {% block content %}
+	{% endblock content %}
+
+  <div>
+    <div class="container-fluid" style="background-color: #e0f6f9;">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="title mt-3 mb-2" style="text-align: center">Contact me</h2>
+          <h3 class="titlenum" style="text-align: center"> +1 (240) 893-8287</h3>
         </div>
       </div>
-    </div>
-
-    <div class="footer-content">
-      <div class="container-fluid" style="background-color :#899f89">
-        <div class="row" style="height: 75px">
+      <div class="row justify-content-center">
+        <a href="mailto:andrewtce10@gmail.com" class="justify-content-center">
+          <div class="contact-img">
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h3 class="titleinfo" style="text-align: center"> Click above to email me!</h3>
         </div>
       </div>
     </div>
   </div>
+
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
