@@ -1,0 +1,664 @@
+html {
+	scroll-padding-top: 65px;
+	background-color: #e0f6f9;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.contact-img {
+	display: block;
+	background-image: url("/static/icons/envelope.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	fill:#FFFFFF;
+	margin-bottom: 20px;
+  	transition: 0.005s;
+}
+
+.contact-img:hover {
+	background-image: url("/static/icons/envelope-open.svg");
+}
+
+
+#first { 
+    padding-top: 55px;
+    
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+/* Navbar */
+.navbar-brand { 
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	color: snow;
+}
+
+.nav-img {
+	height: 40px;
+}
+.navbar {
+	background-color: #e0f6f9;
+}
+
+.nav-item, .scroll-link, .navbar-collapse{
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	color: snow;
+	font-size: 1.4rem;
+}
+
+.nav-item:hover, .scroll-link:hover, .navbar-collapse:hover, .navbar-brand:hover {
+	color: #000000;
+}
+
+/* Generic */
+.title {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #000000;
+}
+
+.title:hover {  
+	color: #000000;
+	transition: 0.05s;
+}
+
+.titlenum {
+	font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 2rem;
+	color: #727272;
+}
+
+.titleinfo {
+	font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 1rem;
+	color: #727272;
+}
+
+.description {
+	font-family: "Roboto", Courier, monospace;
+	font-size: 1.8rem;
+	line-height: 1.9rem;
+	text-align: center;
+	font-weight: 600;
+	color: gray;
+}
+
+/* Top Picture */
+.top-picture{
+	height: 42rem;
+	overflow-x: hidden;
+}
+
+.top-text{
+	padding: 2%;
+}
+
+.top-title {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 5rem;
+	font-weight: bold;
+	color: snow;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5rem;
+	text-shadow: 5px 5px lightgray;
+}
+
+.top-body{
+	color: snow; 
+	font-size: 0.8rem;
+}
+
+.top-img {
+	max-width: auto;
+	max-height: auto;
+	overflow: hidden;
+}
+
+/* About me */
+.about-content {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+/* What do I do */
+.what-content {
+	padding-bottom: 2rem;
+}
+.what-subtitle {
+	font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 1.5px 1.5px #FFD520;
+	
+}
+.what-description {
+	text-align: left;
+	margin-bottom: 4rem;
+}
+.what-img {
+	width: 100%;
+	height:auto ;
+}
+/* Projects */
+.project-col {
+	height: 80%;
+}
+
+.project-card {
+	width: auto;
+	text-align: center;
+	text-decoration: none;
+	filter: saturate(20%);
+	transition: 2s;
+}
+.project-card:hover {
+	transition-duration: 1s;
+	filter: saturate(90%);
+	padding: 1.25%;
+}
+.project-card-1 {
+	background-color: #F0386B
+}
+.project-card-2 {
+	background-color: #87BBA2
+	
+}
+.project-card-3{
+	background-color: #06BCC1
+}
+
+.project-card-title {
+	font-size: 2rem;
+	color: snow;
+	font-weight: bold;
+	text-shadow: 1.5px 1.5px gray;
+	
+}
+
+.project-card-title:hover {
+	text-decoration: none;
+	color: #EAFFDA ;
+}
+
+.project-description {
+	color: snow;
+	display: center;
+}
+
+/* Blog-index */
+.blog-title { 
+	text-align: left; 
+	font-size: 2.2rem;
+	transition: 0.25s;
+
+}
+.blog-title:hover {  
+	color: #000000;
+	transition: 0.05s;
+}
+
+.blog-desc {
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+/* Blog post */
+.post-title {
+	text-align: left; 
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.post-about {
+	font-size: 1.1rem;
+	color: gray;
+}
+.contact-container {
+	all:initial;
+}
+.post-body {
+	font-family: "Roboto", Courier, monospace;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	text-align: left;
+}
+
+.blog-back {
+	color: lightgray;
+	text-shadow: 1.2px 1.2px gray
+}
+
+.blog-back:hover {
+	color: gray;
+	text-decoration: none;
+}
+/* Webapp */
+
+.webapp-title {
+	font-family: "Roboto", Courier, monospace;
+	font-size: 2rem;
+	line-height: 1.2rem;
+	text-align: left;
+}
+
+.webapp-card {
+	padding: 5%;
+}
+
+/* Resume */
+
+.resume-name {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.resume-header {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	font-size: 2rem;
+	line-height: 1.5rem;
+	font-weight: bold;
+}
+
+.resume-contact {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	line-height: 1.8rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.resume-info {
+	font-family: Calibri, sans-serif;
+	font-size: 1.5rem;
+}
+
+.resume-position {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.resume-position-sub {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.resume-date {
+	font-family: Calibri, sans-serif;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+
+.resume-download {
+	text-align: center;
+}
+
+.resume-download:hover {
+	text-decoration: none;
+	color: #000000;
+
+}
+
+body {
+	margin: 60px;
+}
+
+.body1 {
+	margin: 0;
+	height: 20vh;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .background-one {
+	background-color: #e0f6f9;
+  }
+  
+  .background-two {
+	background-color: #000000;
+  }
+  
+  .background-three {
+	background-color: #000000;
+  }
+  
+  .link-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	position: relative;
+	z-index: 0;
+  }
+  
+  a {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-size: 2.5em;
+  }
+  
+  .link-one {
+	color: #727272;
+	transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
+	line-height: 1em;
+	border: 1px;
+  }
+  
+  .link-one:hover {
+	color: #000000;
+	transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
+  
+	/* Thanks Chris Coyier, you got my back always. https://css-tricks.com/different-transitions-for-hover-on-hover-off/ */
+  }
+  
+  .link-one::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: #e0f6f9;
+  
+	clip-path: circle(0% at 50% calc(50%));
+	transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  
+  .link-one:hover::before {
+	clip-path: circle(100% at 50% 50%);
+  }
+  
+  .link-one::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: #000000;
+  
+	clip-path: polygon(
+	  40% 0%,
+	  60% 0%,
+	  60% 0%,
+	  40% 0%,
+	  40% 100%,
+	  60% 100%,
+	  60% 100%,
+	  40% 100%
+	);
+  
+	/*
+	Didn't look consistently awesome enough
+	across different viewing widths.
+	clip-path: polygon(
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%
+	);
+	*/
+	transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  
+  .link-one:hover::after {
+	/*
+	clip-path: polygon(
+	  20% 45%,
+	  10% 40%,
+	  30% 30%,
+	  40% 35%,
+	  60% 35%,
+	  70% 30%,
+	  90% 40%,
+	  80% 45%,
+	  60% 35%,
+	  40% 35%,
+	  20% 45%,
+	  20% 55%,
+	  10% 60%,
+	  30% 70%,
+	  40% 65%,
+	  60% 65%,
+	  70% 70%,
+	  90% 60%,
+	  80% 55%,
+	  60% 65%,
+	  40% 65%,
+	  20% 55%
+	);
+	*/
+	clip-path: polygon(
+	  40% 10%,
+	  60% 10%,
+	  60% 35%,
+	  40% 35%,
+	  40% 90%,
+	  60% 90%,
+	  60% 65%,
+	  40% 65%
+	);
+  }
+  
+  .link-two {
+	color: #e0f6f9;
+	transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
+  }
+  
+  .link-two:hover {
+	color: #111;
+	transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
+  }
+  
+  .link-two::before {
+	content: "";
+	position: absolute;
+	z-index: -2;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	clip-path: polygon(
+	  0% -20%,
+	  100% -30%,
+	  100% -10%,
+	  0% 0%,
+	  0% 130%,
+	  100% 120%,
+	  100% 100%,
+	  0% 110%
+	);
+	background-color: #e0f6f9;
+  
+	transition: clip-path 1s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  
+  .link-two:hover::before {
+	clip-path: polygon(
+	  0% 10%,
+	  100% 0%,
+	  100% 20%,
+	  0% 30%,
+	  0% 100%,
+	  100% 90%,
+	  100% 70%,
+	  0% 80%
+	);
+  }
+  
+  .link-two::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	width: 5ch;
+	height: 5ch;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%) rotate(0deg) scale(0);
+	transition: transform 1s ease;
+  
+	background-color: #e0f6f9;
+  }
+  
+  .link-two:hover::after {
+	transform: translate(50%, -50%) rotate(135deg) scale(1);
+  }
+  
+
+  .link-three {
+	color: #e0f6f9;
+	transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
+	line-height: 1em;
+  }
+  
+  .link-three:hover {
+	color: #111;
+	transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
+  
+	/* Thanks Chris Coyier, you got my back always. https://css-tricks.com/different-transitions-for-hover-on-hover-off/ */
+  }
+  
+  .link-three::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: #e0f6f9;
+  
+	clip-path: circle(0% at 50% calc(50%));
+	transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  
+  .link-three:hover::before {
+	clip-path: circle(100% at 50% 50%);
+  }
+  
+  .link-three::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: #000000;
+  
+	clip-path: polygon(
+	  40% 0%,
+	  60% 0%,
+	  60% 0%,
+	  40% 0%,
+	  40% 100%,
+	  60% 100%,
+	  60% 100%,
+	  40% 100%
+	);
+  
+	/*
+	Didn't look consistently awesome enough
+	across different viewing widths.
+	clip-path: polygon(
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%,
+	  50% 50%
+	);
+	*/
+	transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  
+  .link-three:hover::after {
+	/*
+	clip-path: polygon(
+	  20% 45%,
+	  10% 40%,
+	  30% 30%,
+	  40% 35%,
+	  60% 35%,
+	  70% 30%,
+	  90% 40%,
+	  80% 45%,
+	  60% 35%,
+	  40% 35%,
+	  20% 45%,
+	  20% 55%,
+	  10% 60%,
+	  30% 70%,
+	  40% 65%,
+	  60% 65%,
+	  70% 70%,
+	  90% 60%,
+	  80% 55%,
+	  60% 65%,
+	  40% 65%,
+	  20% 55%
+	);
+	*/
+	clip-path: polygon(
+	  40% 10%,
+	  60% 10%,
+	  60% 35%,
+	  40% 35%,
+	  40% 90%,
+	  60% 90%,
+	  60% 65%,
+	  40% 65%
+	);
+  }
