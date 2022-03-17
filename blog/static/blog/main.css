@@ -3,6 +3,10 @@ html {
 	background-color: #e0f6f9;
 }
 
+a:hover {
+	text-decoration: none !important;
+}
+
 .contact-img {
 	display: block;
 	background-image: url("/static/icons/envelope.svg");
@@ -49,7 +53,7 @@ a:hover {
 }
 
 .nav-item:hover, .scroll-link:hover, .navbar-collapse:hover, .navbar-brand:hover {
-	color: #ffd9d9;
+	color: #000000;
 }
 
 /* Generic */
@@ -57,7 +61,7 @@ a:hover {
 	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 	font-size: 2rem;
 	font-weight: bold;
-	color: #000000;
+	color: #b80606;
 }
 
 .titlenum {
@@ -192,10 +196,6 @@ a:hover {
 	transition: 0.25s;
 
 }
-.blog-title:hover {  
-	color: #f89588;
-	transition: 0.05s;
-}
 
 .blog-desc {
 	text-align: left;
@@ -301,7 +301,7 @@ a:hover {
 
 .resume-download:hover {
 	text-decoration: none;
-	color: #f8b188;
+	color: #000000;
 
 }
 
