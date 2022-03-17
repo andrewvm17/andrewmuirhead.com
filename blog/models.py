@@ -8,6 +8,7 @@ class Post(models.Model):
     content = RichTextField(config_name = "default")
     date_posted = models.DateTimeField(default=timezone.now)
     created_on = models.DateTimeField(auto_now_add=True)
+    description = models.CharField(max_length = 255)
 
 
 
